@@ -11,7 +11,7 @@ const LoginPage = () => {
           <form className="name-form">
             <input type="text" name="user1" placeholder="Enter Player One" className="form-input"/>
             <input type="text" name="user2" placeholder="Enter Player Two" className="form-input"/>
-            <button type="submit" className="start-game">START GAME</button>
+            <Link to={"/game"} className="start-game">START GAME</Link>
           </form>
         </div>
         <p className="provedBy">Proved By Ermia Zavari 2024</p>

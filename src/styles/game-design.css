@@ -1,0 +1,35 @@
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: regular;
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+.headTxt {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 36px;
+  font-weight: bolder;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.board-row{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
